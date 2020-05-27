@@ -1,7 +1,7 @@
 try{
 node{
 
-  stage('Checkout') { 
+  stage('Checkout SCM') { 
       
       git credentialsId: '4862c36a-cb75-4ad6-a7dc-dad0abf563c8', url: 'https://github.com/devopstrainingblr/Ant-WebProject.git', branch: 'master'
     
